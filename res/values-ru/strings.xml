@@ -1,0 +1,157 @@
+<resources>
+
+    <!-- Main Buttons -->
+    <string name="options">Опции</string>
+    <string name="tutorial">Руководство</string>
+    <string name="play_offline">Играть\nНе в сети</string>
+    <string name="play_online">Играть\nВ сети</string>
+
+    <!-- Online Dialog -->
+    <string name="quick_match">Быстрый Матч</string>
+    <string name="private_match">Частный Матч</string>
+    <string name="select_game_style">Выберите Стиль Игры</string>
+
+    <!-- Loading Dialogs -->
+    <string name="queue_title">Очередь</string>
+    <string name="room_search">Поиск Игровой Комнаты... </string>
+    <string name="opponent_search">Поиск Соперника ...</string>
+    <string name="opponent_not_found">Не Мог Найти Соперника.</string>
+
+    <!-- Tutorial -->
+    <string name="choose_tutorial">Выберите Руководство</string>
+    <string name="basic_rules">Основные Правила</string>
+    <string name="advanced_strategies">Прогрессивный Стратегии</string>
+
+    <string name="previous">Предыдущий</string>
+    <string name="next">Следующий</string>
+
+    <string name="basics_phase1">Добро пожаловать в объяснение по основам игры. Шаг за шагом я покажу вам, как играть. Нажмите «Далее», когда вы будете готовы начать.</string>
+    <string name="basics_phase2">Отлично! Сначала все сначала. ФлипИт - настольная игра с двумя игроками, в которой один игрок играет с черными фигурами, а второй игрок играет с белыми.</string>
+    <string name="basics_phase3">Когда игра заканчивается, побеждает игрок, у которого больше игровых предметов на доске.</string>
+    <string name="basics_phase4">Например, на этой доске победил тот, кто играл с черными фигурами. Потому что есть 51 черный кусок и только 13 белых.</string>
+    <string name="basics_phase5">Прежде чем продолжить, обратите внимание, что только для целей этого урока вы будете играть с черными фигурами.</string>
+    <string name="basics_phase6">Теперь давайте посмотрим, как перевернуть фигуры противника в ваших интересах.</string>
+    <string name="basics_phase7">На вашем ходу куски оппонента переворачиваются, если они попадают в ловушку новой фигуры, которую вы положили на доску. Попробуйте нажать на светящийся квадрат и посмотреть.</string>
+    <string name="basics_phase8">Вы можете переворачивать части в ряд, колонку и также по диагонали. Более того, вы можете делать все это одновременно. Пожалуйста продолжай.</string>
+    <string name="basics_phase9">Великолепно! Теперь вы должны помнить, что в каждом повороте вы должны перевернуть хотя бы одну фигуру оппонента. Если вы не можете, оппонент получает еще один ход.</string>
+    <string name="basics_phase10">Игра заканчивается, когда доска заполнена, или оба игрока не могут сделать законный ход.</string>
+    <string name="basics_phase11">Это все. Теперь вы готовы к игре. Наслаждайтесь!</string>
+
+    <string name="advanced_phase1">Привет! Если вы хотите узнать больше об игре, вы пришли в нужное место.</string>
+    <string name="advanced_phase2">Я собираюсь показать вам несколько игровых стратегий, которые определенно помогут вам выиграть намного больше!</string>
+    <string name="advanced_phase3">Прежде чем мы начнем, обратите внимание, что только для целей этого урока вы будете играть с черными фигурами.</string>
+    <string name="advanced_phase4">Великолепно! Итак, первая стратегия - самая простая - идите к цели. Это значит, что каждый ход пытается отразить как можно больше игровых предметов.</string>
+    <string name="advanced_phase5">В этом случае размещение этой фигуры на зеленом светящемся месте было бы более подходящим в рамках этой стратегии.</string>
+    <string name="advanced_phase6">Хорошо. Теперь давайте посмотрим, почему эта стратегия сама по себе не достаточно хороша.</string>
+    <string name="advanced_phase7">Гораздо лучший подход для игры - это попытка запечатлеть углы доски.</string>
+    <string name="advanced_phase8">Вам, наверное, интересно, что же такого хорошего в углах? Ну, для начала, части, помещенные в углах, никогда не будут перевернуты.</string>
+    <string name="advanced_phase9">Вот экстремальный пример, когда ваш оппонент играл «за ворота», но все равно проиграет. Это потому, что у него нет законных ходов, а ваши углы - ваши.</string>
+    <string name="advanced_phase10">Отлично! Вы уже лучший игрок! Теперь давайте рассмотрим больше областей платы.</string>
+    <string name="advanced_phase11">Самая опасная область на доске - вокруг углов. Это потому, что захват их может дать вашему оппоненту возможность захватить углы.</string>
+    <string name="advanced_phase12">Если вы нажмете оранжевое пятно, ваш противник захватит угол.</string>
+    <string name="advanced_phase13">Великолепно! Перейдем к следующей зоне - остаткам полей. Подобно углам, вы можете заметить, что они очень хорошие места для захвата.</string>
+    <string name="advanced_phase14">Следующая область находится рядом с полями. Вы можете избежать этой зоны, потому что это может дать вашему оппоненту возможность получить контроль над полями</string>
+    <string name="advanced_phase15">Итак, мы видели четыре области - две прекрасные для игры и две опасные. Это оставляет нас с последней областью - середина доски, которая в основном нейтральна.</string>
+    <string name="advanced_phase16">Отлично! Давайте перейдем сразу к финальной стратегии, которую вы можете использовать после захвата углов и полей.</string>
+    <string name="advanced_phase17">Вы можете попытаться перейти от внешних частей доски внутрь, без пробелов между вашими дисками.</string>
+    <string name="advanced_phase18">Таким образом, вы можете сделать больше не сбрасываемых частей. Кроме того, это значительно сократит количество законных ходов, которые будут иметь ваш оппонент.</string>
+    <string name="advanced_phase19">Это все. Теперь вы готовы доминировать на доске! Счастливые игры!</string>
+
+
+    <!-- Options -->
+    <string name="account">Счет</string>
+    <string name="log_in">Авторизоваться</string>
+    <string name="log_out">Выйти</string>
+    <string name="sound">Звук</string>
+    <string name="vibrator">Вибратор</string>
+    <string name="language">Язык</string>
+    <string name="choose">Выберите</string>
+
+    <!-- The order have to match Constants.LOCALES_ARRAY -->
+    <string-array name="languages_array">
+        <item>Английский</item>
+        <item>Иврит</item>
+        <item>Русский</item>
+        <item>Французский</item>
+    </string-array>
+
+    <!-- Login -->
+    <string name="log_out_succeeded">Вы вышли из системы.</string>
+    <string name="sign_in_succeeded">Войти в систему успешно!</string>
+    <string name="sign_in_cancelled">Вход был отменен.</string>
+    <string name="no_internet_connection">Нет подключения к Интернету.</string>
+    <string name="unknown_error">Неизвестная ошибка.</string>
+    <string name="unknown_sign_in_response">Полученное приложение Неизвестный ответ на вход.</string>
+
+
+    <!-- Game Pieces -->
+    <string name="choose_game_piece">Выберите свой стиль</string>
+    <string name="game_piece_note">Обратите внимание, что игрок с ЧЕРНЫМИ фигурами ЗАПУСКАЕТ игру.</string>
+
+    <!-- Difficulty -->
+    <string name="choose_difficulty">Выберите Трудность</string>
+    <string name="beginner">Новичок</string>
+    <string name="easy">Легкий</string>
+    <string name="medium">Средний</string>
+    <string name="hard">Трудный</string>
+    <string name="expert">Эксперт</string>
+
+    <!-- Names -->
+    <string name="temp_player_name">Я</string>
+    <string name="temp_opponent_name">Оппонент</string>
+    <string name="bot_name_beginner">Новичок</string>
+    <string name="bot_name_easy">Легкий</string>
+    <string name="bot_name_medium">Средний</string>
+    <string name="bot_name_hard">Трудный</string>
+    <string name="bot_name_expert">Эксперт</string>
+
+    <!-- Game -->
+    <string name="victory_text">ПОБЕДА</string>
+    <string name="defeat_text">ПОРАЖЕНИЕ</string>
+    <string name="draw_text">НИЧЬЯ</string>
+    <string name="play_again">Играть Снова</string>
+    <string name="back_to_menu">Назад к Меню</string>
+
+    <!-- Game Room-->
+    <string name="game_room_title">Введите Игровую Комнату</string>
+    <string name="room_name">Название Комнаты</string>
+    <string name="password">Пароль</string>
+    <string name="done">Выполнено</string>
+    <string name="room_name_too_short">Название комнаты должно содержать не менее 3 букв.</string>
+    <string name="password_too_short">Пароль должен содержать не менее 3 букв.</string>
+    <string name="wrong_password">Неправильный Пароль</string>
+    <string name="full_room">Эта комната уже занята.</string>
+    <string name="opponent_connected">Теперь ваш оппонент подключен.</string>
+    <string name="opponent_left">Ваш оппонент ушел.</string>
+    <string name="no_opponent_yet">У вас еще нет оппонента.</string>
+
+
+    <!-- Emotes -->
+
+    <string-array name="emotes_array">
+        <item>Привет!</item>
+        <item>Хорошо сыграно!</item>
+        <item>Ты Молодец!</item>
+        <item>ХиХи!</item>
+        <item>Спасибо!</item>
+        <item>Ой...</item>
+        <item>Секундочку...</item>
+        <item>Я ухожу, пока.</item>
+    </string-array>
+
+    <string-array name="bot_emotes_array">
+        <item>Бип буп бу-буп</item>
+        <item>Буу-бу, би бап-вуп</item>
+    </string-array>
+
+
+    <!-- Verifications -->
+    <string name="verification_return">Вы действительно хотите вернуться в главное меню?</string>
+    <string name="verification_restart">Ты уверен, что хочешь перезапустить игру?</string>
+    <string name="verification_concede">Вы уверены, что хотите сдатся?</string>
+    <string name="verification_logout">Вы действительно хотите выйти?</string>
+    <string name="cancel">Отменить</string>
+    <string name="accept">Да</string>
+
+
+</resources>

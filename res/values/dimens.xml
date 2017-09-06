@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Emote dimens:-->
+    <dimen name="player_emote_padding_left">8dp</dimen>
+    <dimen name="player_emote_padding_right">16dp</dimen>
+    <dimen name="player_emote_margin_left">4dp</dimen>
+    <dimen name="player_emote_margin_right">0dp</dimen>
+
+    <!-- Tutorial bubble dimens:-->
+    <dimen name="tutorial_bubble_padding_left">12dp</dimen>
+    <dimen name="tutorial_bubble_padding_right">40dp</dimen>
+    <dimen name="tutorial_bubble_margin_left">8dp</dimen>
+    <dimen name="tutorial_bubble_margin_right">0dp</dimen>
+
+
+</resources>

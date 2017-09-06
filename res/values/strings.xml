@@ -1,0 +1,164 @@
+<resources>
+
+    <string name="app_name" translatable="false">FlipIt</string>
+    <string name="facebook_application_id" translatable="false">000000000000000</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb000000000000000</string>
+    <string name="main_banner_ad_unit_id" translatable="false">ca-app-pub-0000000000000000/0000000000</string>
+    <string name="game_room_banner_ad_unit_id" translatable="false">ca-app-pub-0000000000000000/0000000000</string>
+    <string name="promo_ad_unit_id" translatable="false">ca-app-pub-0000000000000000/0000000000</string>
+
+    <!-- Main Buttons -->
+    <string name="options">Options</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="play_offline">Play\nOffline</string>
+    <string name="play_online">Play\nOnline</string>
+
+    <!-- Online Dialog -->
+    <string name="quick_match">Quick Match</string>
+    <string name="private_match">Private Match</string>
+    <string name="select_game_style">Select a Game Style</string>
+
+    <!-- Loading Dialogs -->
+    <string name="queue_title">Queue</string>
+    <string name="room_search">Searching for a Game Room...</string>
+    <string name="opponent_search">Searching for an Opponent...</string>
+    <string name="opponent_not_found">Couldn\'t find an opponent.</string>
+
+    <!-- Tutorial -->
+    <string name="choose_tutorial">Choose a Tutorial</string>
+    <string name="basic_rules">Basic Rules</string>
+    <string name="advanced_strategies">Advanced Strategies</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+    <string name="basics_phase1">Welcome to the game\'s basics tutorial. Step by step, I\'m going to show you how to play. Press \'Next\' when you\'re ready to begin.</string>
+    <string name="basics_phase2">Excellent! First things first. FlipIt is a two-player board game, where one player plays with the black game pieces, and the second player plays with the white ones.</string>
+    <string name="basics_phase3">When a game ends, the player who has more game pieces on the board wins.</string>
+    <string name="basics_phase4">For example, in that board, the player who played with the black pieces won. Because, there are 51 black pieces and only 13 white ones.</string>
+    <string name="basics_phase5">Before we continue, note that just for the purpose of this tutorial, you are going to play with the black game pieces.</string>
+    <string name="basics_phase6">Now, let\'s see how to flip your opponent\'s pieces to your advantage.</string>
+    <string name="basics_phase7">On your move, the opponent\'s pieces are flipped if they are trapped by the new piece you put on the board. Try to press the glowing square and see.</string>
+    <string name="basics_phase8">You can flip pieces in a row, a column and also diagonally. Moreover, you can do all of that simultaneously. Please, go ahead.</string>
+    <string name="basics_phase9">Great! Now, you must keep in mind that in each turn, you must flip at least one of your opponent\'s pieces. If you can\'t, your opponent gets another turn.</string>
+    <string name="basics_phase10">The game ends when the board is full, or if both players cannot make a legal move.</string>
+    <string name="basics_phase11">That would be all. You are now ready to play. Enjoy!</string>
+
+    <string name="advanced_phase1">Hey there! If you want to learn more about the game, you came just to the right place.</string>
+    <string name="advanced_phase2">I’m about to show you several game strategies that will definitely help you win a lot more!</string>
+    <string name="advanced_phase3">Before we begin, note that just for the purpose of this tutorial, you are going to play with the black game pieces.</string>
+    <string name="advanced_phase4">Great! So, the first strategy is the simplest one – go for the goal. It means, every turn, try to flip as much game pieces as you can.</string>
+    <string name="advanced_phase5">In that case, putting a piece on the green glowing spot would be more suitable under this strategy.</string>
+    <string name="advanced_phase6">Okay. Now, let’s see why this strategy alone is not good enough.</string>
+    <string name="advanced_phase7">A much better approach for the game would be one that attempts to capture the corners of the board.</string>
+    <string name="advanced_phase8">You’re probably wondering, what is so great about the corners? Well, for starters, pieces placed in corners will never get flipped.</string>
+    <string name="advanced_phase9">Here’s an extreme example where your opponent played ‘for the goal’, but will still lose. That’s because he’s out of legal moves and the corners are yours to capture.</string>
+    <string name="advanced_phase10">Excellent! you are a better player already! Now, let’s observe more areas of the board.</string>
+    <string name="advanced_phase11">The most dangerous area in the board is around the corners. That’s because capturing them will might give your opponent an opportunity to capture the corners.</string>
+    <string name="advanced_phase12">Here’s a simple hypothetical example that will show you what I mean. If you would press the orange spot, your opponent will capture the corner.</string>
+    <string name="advanced_phase13">Great! Let’s get to the next zone – the remainders of the margins. Similarly to the corners, you can notice they are very good spots to capture.</string>
+    <string name="advanced_phase14">The next area is adjacent to the margins. You might want to avoid that zone, because it can give your opponent an opportunity to gain control over the margins.</string>
+    <string name="advanced_phase15">So, we’ve seen four areas – two areas that are great to play, and two dangerous ones. That’s leaving us with the last area – the middle of the board, which is mostly neutral.</string>
+    <string name="advanced_phase16">Excellent! Let’s jump right to the final strategy, which you can use after capturing corners and margins.</string>
+    <string name="advanced_phase17">You can try to advance from the outer parts of the board to the inside, without spaces between your disks.</string>
+    <string name="advanced_phase18">That way, you can make more non-flippable pieces. Plus, it will significantly reduce the number of legal moves your opponent will have.</string>
+    <string name="advanced_phase19">That would be all. You are now ready to dominate the board! Happy gaming!</string>
+
+
+    <!-- Options -->
+    <string name="account">Account</string>
+    <string name="log_in">Log In</string>
+    <string name="log_out">Log Out</string>
+    <string name="sound">Sound</string>
+    <string name="vibrator">Vibrator</string>
+    <string name="language">Language</string>
+    <string name="choose">Choose</string>
+
+    <!-- The order have to match Constants.LOCALES_ARRAY -->
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Hebrew</item>
+        <item>Russian</item>
+        <item>French</item>
+    </string-array>
+
+    <!-- Login -->
+    <string name="log_out_succeeded">You Are Now Logged Out.</string>
+    <string name="sign_in_succeeded">Sign In Succeeded!</string>
+    <string name="sign_in_cancelled">Sign In Has Been Cancelled.</string>
+    <string name="no_internet_connection">There is No Internet Connection.</string>
+    <string name="unknown_error">Unknown Error has Occurred.</string>
+    <string name="unknown_sign_in_response">Application Received Unknown Sign In Response.</string>
+
+
+    <!-- Game Pieces -->
+    <string name="choose_game_piece">Choose Your Style</string>
+    <string name="game_piece_note">Note that the player with the\nBLACK pieces STARTS the game.</string>
+
+    <!-- Difficulty -->
+    <string name="choose_difficulty">Choose a Difficulty</string>
+    <string name="beginner">Beginner</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="expert">Expert</string>
+
+    <!-- Names -->
+    <string name="temp_player_name">Me</string>
+    <string name="temp_opponent_name">Opponent</string>
+    <string name="bot_name_beginner">Beginner A.I.</string>
+    <string name="bot_name_easy">Easy A.I.</string>
+    <string name="bot_name_medium">Medium A.I.</string>
+    <string name="bot_name_hard">Hard A.I.</string>
+    <string name="bot_name_expert">Expert A.I.</string>
+
+    <!-- Game -->
+    <string name="victory_text">VICTORY</string>
+    <string name="defeat_text">DEFEAT</string>
+    <string name="draw_text">DRAW</string>
+    <string name="play_again">Play Again</string>
+    <string name="back_to_menu">Back to Menu</string>
+
+    <!-- Game Room-->
+    <string name="game_room_title">Enter A Game Room</string>
+    <string name="room_name">Room Name</string>
+    <string name="password">Password</string>
+    <string name="done">Done</string>
+    <string name="room_name_too_short">Room Name must contain at least 3 letters.</string>
+    <string name="password_too_short">Password must contain at least 3 letters.</string>
+    <string name="wrong_password">Wrong Password</string>
+    <string name="full_room">That room is already occupied.</string>
+    <string name="opponent_connected">Your opponent is now connected.</string>
+    <string name="opponent_left">Your opponent has left.</string>
+    <string name="no_opponent_yet">You don\'t have an opponent yet.</string>
+
+
+    <!-- Emotes -->
+
+    <string-array name="emotes_array">
+        <item>Hello!</item>
+        <item>Well Played, My Friend</item>
+        <item>You\'re Good</item>
+        <item>HeHe!</item>
+        <item>Thank You</item>
+        <item>Oops...</item>
+        <item>Just a sec...</item>
+        <item>I Gotta Go, Cya Later</item>
+    </string-array>
+
+    <string-array name="bot_emotes_array">
+        <item>Beep boop bu-bup</item>
+        <item>Boo-bu, bi-bup woop</item>
+    </string-array>
+
+
+    <!-- Verifications -->
+    <string name="verification_return">Are you sure you want to go back to main menu?</string>
+    <string name="verification_restart">Are you sure you want to\nrestart the game?</string>
+    <string name="verification_concede">Are you sure you want to concede?</string>
+    <string name="verification_logout">Are you sure you want to log out?</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Yes</string>
+
+
+</resources>

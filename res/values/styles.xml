@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Using material dark design without an action bar.
+         Also changing colorAccent to green and
+         disabling default sound effects in order to use whatever we want per situation. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+
+        <item name="colorAccent">@color/colorGreen</item>
+        <item name="android:textColor">@color/colorLight</item>
+
+        <item name="android:soundEffectsEnabled">false</item>
+
+    </style>
+
+
+    <style name="DialogTheme" parent="@style/Theme.AppCompat.Dialog">
+
+        <item name="colorAccent">@color/colorGreen</item>
+        <item name="android:textColor">@color/colorLight</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/dialog_green_shadow</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+
+    </style>
+
+
+</resources>

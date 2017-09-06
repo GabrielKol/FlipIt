@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_game_text"
+        android:text="@string/select_game_style"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/quick_match_button"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_green_shadow"
+        android:text="@string/quick_match"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/select_game_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/private_match_button"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_green_shadow"
+        android:text="@string/private_match"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/quick_match_button"
+        android:layout_marginBottom="30dp"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>

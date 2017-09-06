@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/options"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <!-- Login/Logout layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_green_shadow"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/account"
+                android:textSize="18dp"
+                android:textColor="@color/colorLight"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:id="@+id/login_logout_button"
+                android:textSize="18dp"
+                android:textColor="@color/colorLight"
+                android:textAllCaps="false"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+        <!-- Voice layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_green_shadow"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sound"
+                android:layout_centerVertical="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorLight"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"/>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:id="@+id/sound_switch"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+        <!-- Vibrator layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_green_shadow"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vibrator"
+                android:layout_centerVertical="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorLight"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"/>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:id="@+id/vibrator_switch"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+        <!-- Language layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_green_shadow"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language"
+                android:layout_centerVertical="true"
+                android:textSize="18dp"
+                android:textColor="@color/colorLight"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:id="@+id/language_spinner"
+                android:textSize="18dp"
+                android:textColor="@color/colorLight"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:entries="@array/languages_array"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_marginRight="2dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

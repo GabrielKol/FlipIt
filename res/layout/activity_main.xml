@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="@drawable/black_wood_background"
+    tools:context="com.sublime.gaby.flipit.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/title"
+        android:background="@drawable/flipit_title"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/options_button"
+        android:layout_below="@+id/title"
+        android:background="@drawable/button_gray"
+        android:text="@string/options"
+        android:textSize="24dp"
+        android:textAllCaps="false"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="18dp"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tutorial_button"
+        android:layout_below="@+id/options_button"
+        android:background="@drawable/button_gray"
+        android:text="@string/tutorial"
+        android:textSize="24dp"
+        android:textAllCaps="false"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="18dp"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/play_offline_button"
+        android:layout_below="@+id/tutorial_button"
+        android:text="@string/play_offline"
+        android:textSize="24dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_dark_green"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="18dp"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/play_online_button"
+        android:layout_below="@+id/play_offline_button"
+        android:text="@string/play_online"
+        android:textSize="24dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_green"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"/>
+
+    <!-- Banner Ad -->
+    <com.google.android.gms.ads.AdView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_ad_view_banner"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/main_banner_ad_unit_id" />
+
+</RelativeLayout>

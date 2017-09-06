@@ -1,0 +1,155 @@
+<resources>
+
+    <!-- Main Buttons -->
+    <string name="options">הגדרות</string>
+    <string name="tutorial">הדרכה</string>
+    <string name="play_offline">משחק\nמול מחשב</string>
+    <string name="play_online">משחק\nברשת</string>
+
+    <!-- Online Dialog -->
+    <string name="quick_match">משחק מהיר</string>
+    <string name="private_match">משחק פרטי</string>
+    <string name="select_game_style">בחר סגנון משחק</string>
+
+    <!-- Loading Dialogs -->
+    <string name="queue_title">תור</string>
+    <string name="room_search">מחפש חדר משחק...</string>
+    <string name="opponent_search">מחפש יריב...</string>
+    <string name="opponent_not_found">לא היה ניתן למצוא יריב.</string>
+
+    <!-- Tutorial -->
+    <string name="choose_tutorial">בחר מדריך</string>
+    <string name="basic_rules">חוקים בסיסיים</string>
+    <string name="advanced_strategies">אסטרטגיה מתקדמת</string>
+
+    <string name="previous">קודם</string>
+    <string name="next">הבא</string>
+
+    <string name="basics_phase1">ברוכים הבאים למדריך חוקי המשחק הבסיסיים. שלב אחר שלב, אני אלמד אותך איך לשחק. לחץ \'הבא\' כדי להתחיל.</string>
+    <string name="basics_phase2">מצוין! בראש ובראשונה, פליפ-איט הוא משחק קופסא לשני שחקנים, כאשר שחקן אחד משחק עם כלי המשחק השחורים, והשני עם הלבנים.</string>
+    <string name="basics_phase3">כאשר משחק מסתיים, השחקן שיש לו יותר כלים על פני הלוח מנצח.</string>
+    <string name="basics_phase4">לדוגמא, בלוח זה, השחקן ששיחק עם כלי המשחק השחורים ניצח. זאת מכיוון שיש 51 כלים שחורים על הלוח, אך רק 13 לבנים.</string>
+    <string name="basics_phase5">לפני שנמשיך, אציין כי רק למטרת ההדרכה, אתה תשחק עם כלי המשחק השחורים.</string>
+    <string name="basics_phase6">עכשיו, נראה איך אפשר להפוך את כלי המשחק של היריב שלך לטובתך.</string>
+    <string name="basics_phase7">כשאתה מבצע מהלך, כלי המשחק של היריב נהפכים אם הם כלואים על ידי הכלי שאתה מניח על הלוח. נסה ללחוץ על הריבוע הזוהר והבט.</string>
+    <string name="basics_phase8">אפשר להפוך כלים בשורה, בעמודה ובאלכסון. יתר על כן, ניתן לעשות את כל זה בו זמנית. נסה וראה.</string>
+    <string name="basics_phase9">מעולה! כעת, עליך לזכור כי בכל מהלך אתה מוכרח להפוך לפחות כלי אחד של היריב. אם אתה לא יכול, היריב מקבל תור נוסף.</string>
+    <string name="basics_phase10">המשחק מסתיים כאשר הלוח מלא, או אם שני השחקנים לא יכולים לבצע מהלך חוקי.</string>
+    <string name="basics_phase11">זה הכל. אתה עכשיו מוכן לשחק. תהנה!</string>
+
+    <string name="advanced_phase1">שלום לך! אם רצית ללמוד עוד על המשחק, הגעת בדיוק למקום הנכון!</string>
+    <string name="advanced_phase2">אני אראה לך כמה אסטרטגיות משחק שבהחלט יעזרו לך לנצח הרבה יותר!</string>
+    <string name="advanced_phase3">לפני שנתחיל, אציין כי רק למטרת ההדרכה, אתה תשחק עם כלי המשחק השחורים.</string>
+    <string name="advanced_phase4">מעולה! אז, האסטרטגיה הראשונה היא הפשוטה ביותר – לך על המטרה. כלומר, בכל מהלך, תנסה להפוך כמה שיותר כלים.</string>
+    <string name="advanced_phase5">במקרה כזה, הנחת כלי במיקום הזוהר בירוק תהיה מתאימה יותר תחת אסטרטגיה זו.</string>
+    <string name="advanced_phase6">אוקיי. כעת נראה מדוע אסטרטגיה זו לבדה אינה מספיק טובה.</string>
+    <string name="advanced_phase7">גישה הרבה יותר טובה למשחק תהיה כזו המנסה לכבוש את הפינות של הלוח.</string>
+    <string name="advanced_phase8">אתה בטח תוהה, מה כל כך מיוחד בפינות של הלוח? ובכן, בתור התחלה, כלים המונחים בפינות לא יהיו ניתנים להפיכה.</string>
+    <string name="advanced_phase9">הנה דוגמא קיצונית שבה היריב "שיחק על המטרה", אך עדיין יפסיד. זאת מכיוון שאין באפשרותו לבצע יותר מהלכים חוקיים והפינות הן שלך ללקיחה.</string>
+    <string name="advanced_phase10">מעולה! אתה כבר שחקן טוב יותר! כעת, בוא נתבונן בעוד אזורים של הלוח.</string>
+    <string name="advanced_phase11">האזור המסוכן ביותר בלוח הוא סביב הפינות. זאת מכיוון שהנחת כלים באותם אזורים עלולה לאפשר ליריב לכבוש את הפינות.</string>
+    <string name="advanced_phase12">הנה דוגמא היפותטית פשוטה שתראה לך למה הכוונה. אם תלחץ על המשבצת הכתומה, היריב יכבוש את הפינה.</string>
+    <string name="advanced_phase13">מעולה! בוא ניגש לאזור הבא – השאריות מהשוליים. בדומה לפינות, ניתן להבחין שגם מיקומים אלה טובים ללכידה.</string>
+    <string name="advanced_phase14">האזור הבא הינו סמוך לשוליים. אתה כנראה תרצה להמנע מלשחק על האיזור הזה, מכיוון שהדבר עלול להעניק ליריב את האפשרות לכבוש את השוליים.</string>
+    <string name="advanced_phase15">אז, ראינו ארבעה אזורים – שניים שטוב לשחק עליהם, ושני אזורים מסוכנים. זה משאיר אותנו עם האזור האחרון – מרכז הלוח, שהוא בדרך כלל ניטרלי.</string>
+    <string name="advanced_phase16">מצויין! בוא נקפוץ ישר לאסטרטגיה האחרונה, בה תוכל להשתמש לאחר שתכבוש פינות ושוליים.</string>
+    <string name="advanced_phase17">אתה יכול לנסות להתקדם מהאיזור החיצוני של הלוח כלפי פנים, מבלי להשאיר רווחים בין הדיסקיות שברשותך.</string>
+    <string name="advanced_phase18">בדרך זו, תוכל לצבור עוד דיסקיות שאינן ניתנות להפיכה. בנוסף, זה יפחית באופן משמעותי את מספר המהלכים החוקיים של היריב.</string>
+    <string name="advanced_phase19">זה הכל. אתה עכשיו מוכן לכבוש את הלוח! משחק מהנה!</string>
+
+
+    <!-- Options -->
+    <string name="account">חשבון</string>
+    <string name="log_in">התחבר</string>
+    <string name="log_out">התנתק</string>
+    <string name="sound">קול</string>
+    <string name="vibrator">רטט</string>
+    <string name="language">שפה</string>
+    <string name="choose">בחר</string>
+
+    <string-array name="languages_array">
+        <item>אנגלית</item>
+        <item>עברית</item>
+        <item>רוסית</item>
+        <item>צרפתית</item>
+    </string-array>
+
+    <!-- Login -->
+    <string name="log_out_succeeded">אתה עכשיו מנותק.</string>
+    <string name="sign_in_succeeded">ההרשמה צלחה!</string>
+    <string name="sign_in_cancelled">ההרשמה התבטלה.</string>
+    <string name="no_internet_connection">אין חיבור לאינטרנט.</string>
+    <string name="unknown_error">אירעה שגיאה לא ידועה.</string>
+    <string name="unknown_sign_in_response">האפליקציה קיבלה תגובת התחברות לא ידועה.</string>
+
+    <!-- Game Pieces -->
+    <string name="choose_game_piece">בחר כלי משחק</string>
+    <string name="game_piece_note">השחקן עם כלי המשחק\nהשחורים מתחיל את המשחק.</string>
+
+    <!-- Difficulty -->
+    <string name="choose_difficulty">בחר רמת קושי</string>
+    <string name="beginner">מתחילים</string>
+    <string name="easy">קל</string>
+    <string name="medium">בינוני</string>
+    <string name="hard">קשה</string>
+    <string name="expert">מומחה</string>
+
+    <!-- Names -->
+    <string name="temp_player_name">אני</string>
+    <string name="temp_opponent_name">יריב</string>
+    <string name="bot_name_beginner">רמת מתחילים</string>
+    <string name="bot_name_easy">רמה קלה</string>
+    <string name="bot_name_medium">רמה בינונית</string>
+    <string name="bot_name_hard">רמה קשה</string>
+    <string name="bot_name_expert">רמת מומחה</string>
+
+    <!-- Game -->
+    <string name="victory_text">ניצחון</string>
+    <string name="defeat_text">הפסד</string>
+    <string name="draw_text">תיקו</string>
+    <string name="play_again">שחק שוב</string>
+    <string name="back_to_menu">חזרה לתפריט</string>
+
+    <!-- Game Room-->
+    <string name="game_room_title">הכנס לחדר משחק</string>
+    <string name="room_name">שם החדר</string>
+    <string name="password">סיסמה</string>
+    <string name="done">בצע</string>
+    <string name="room_name_too_short">שם החדר חייב להכיל לפחות 3 תווים.</string>
+    <string name="password_too_short">הסיסמה חייבת להכיל לפחות 3 תווים.</string>
+    <string name="wrong_password">סיסמה שגויה</string>
+    <string name="full_room">חדר זה כבר תפוס.</string>
+    <string name="opponent_connected">היריב שלך מחובר כעת.</string>
+    <string name="opponent_left">היריב שלך עזב.</string>
+    <string name="no_opponent_yet">עדיין אין לך יריב.</string>
+
+
+    <!-- Emotes -->
+
+    <string-array name="emotes_array">
+        <item>שלום!</item>
+        <item>משחק טוב, חבר</item>
+        <item>אתה משחק טוב</item>
+        <item>חהחה!</item>
+        <item>תודה רבה</item>
+        <item>אופס...</item>
+        <item>רק רגע...</item>
+        <item>חייב לזוז, נתראה.</item>
+    </string-array>
+
+    <string-array name="bot_emotes_array">
+        <item>ביפ בווב בו-בופ</item>
+        <item>בו-בו ביפ-באפ וופ</item>
+    </string-array>
+
+
+    <!-- Verifications -->
+    <string name="verification_return">האם אתה בטוח שברצונך לחזור לתפריט הראשי?</string>
+    <string name="verification_restart">האם אתה בטוח שברצונך\nלהתחיל מחדש את המשחק?</string>
+    <string name="verification_concede">האם אתה בטוח שברצונך להכנע?</string>
+    <string name="verification_logout">האם אתה בטוח שברצונך להתנתק?</string>
+    <string name="cancel">ביטול</string>
+    <string name="accept">כן</string>
+
+
+</resources>

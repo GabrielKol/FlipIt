@@ -1,0 +1,157 @@
+<resources>
+
+    <!-- Main Buttons -->
+    <string name="options">Paramètres</string>
+    <string name="tutorial">Didacticiel</string>
+    <string name="play_offline">Jouer\nHors Ligne</string>
+    <string name="play_online">Jouer\nEn Ligne</string>
+
+    <!-- Online Dialog -->
+    <string name="quick_match">Rapide Rencontre</string>
+    <string name="private_match">Privé Rencontre</string>
+    <string name="select_game_style">Sélectionnez un style de jeu</string>
+
+    <!-- Loading Dialogs -->
+    <string name="queue_title">File d\'attente</string>
+    <string name="room_search">Recherche d\'une salle de jeux...</string>
+    <string name="opponent_search">Recherche d\'un adversaire...</string>
+    <string name="opponent_not_found">Ne pouvait pas de trouver un adversaire.</string>
+
+    <!-- Tutorial -->
+    <string name="choose_tutorial">Choisissez un didacticiel</string>
+    <string name="basic_rules">Règles De Base</string>
+    <string name="advanced_strategies">Stratégies Avancées</string>
+
+    <string name="previous">Précédent</string>
+    <string name="next">Prochain</string>
+
+    <string name="basics_phase1">Bienvenue dans le didacticiel de base du jeu. pas à pas, Je vais vous montrer comment jouer. Appuyez sur \'Prochain\' lorsque vous êtes prêt à commencer.</string>
+    <string name="basics_phase2">Excellent! Avant tout, FlipIt est un jeu de tableau à deux joueurs, un joueur joue avec les pièces noires, et le deuxième joueur joue avec les pièces blancs.</string>
+    <string name="basics_phase3">Quand un jeu se fini, le joueur qui a le plus de pièces sur la table gagne.</string>
+    <string name="basics_phase4">Par exemple, dans ce tableau, le joueur qui a joué avec les pièces noires a gagné. parce que, il y a 51 pièces noirs et seulement 13 pièces blancs.</string>
+    <string name="basics_phase5">Avant nous continuer, notez que, juste pour les buts de ce tutoriel, tu vas jouer avec les pièces noires.</string>
+    <string name="basics_phase6">Maintenant, voyons comment retourner les pièces de votre adversaire à votre avantage.</string>
+    <string name="basics_phase7">Sur votre déménagement, les pièces des adversaire sont retournees si elles sont piégées par la nouvelle pièce que vous avez mise sur le tableau. Essayer d\'appuyer sur le carré embraséet de voir.</string>
+    <string name="basics_phase8">Vous pouvez retourner les pièces d\'affilée, une colonne et aussi en diagonale. De plus, vous pouvez tout faire simultanément. S\'il vous plaît, allez-y.</string>
+    <string name="basics_phase9">Génial! Maintenant, rappelez-vous qu\'à chaque tour, vous devez retourner au moins une des pièces de votre adversaire. Si vous ne pouvez pas, votre adversaire obtient un autre virage.</string>
+    <string name="basics_phase10">Le jeu se termine quand le tableau est plein, ou si les deux joueurs ne peuvent pas faire un mouvement légal.</string>
+    <string name="basics_phase11">C\'est tout. Vous êtes maintenant prêt à jouer. Prendre plaisir!</string>
+
+    <string name="advanced_phase1">Bonjour! Si vous voulez en savoir plus sur le jeu, Vous êtes venus au bon endroit.</string>
+    <string name="advanced_phase2">Je vais vous montrer plusieurs stratégies du jeu qui vous aideront à gagner beaucoup plus!</string>
+    <string name="advanced_phase3">Avant nous commencer, notez que, juste pour les buts de ce tutoriel, tu vas jouer avec les pièces noires.</string>
+    <string name="advanced_phase4">Génial! Alors, la première stratégie est la plus simple – jouer pour la victoire. Ça veut dire, chaque tour, essayer de retourner autant de pièces que vous pouvez.</string>
+    <string name="advanced_phase5">Dans ce cas, mettrer une pièce sur le green tache éclatante serait plus approprié en vertu de cette stratégie.</string>
+    <string name="advanced_phase6">D\'accord. Maintenant, voyons pourquoi cette stratégie seule n\'est pas assez bonne.</string>
+    <string name="advanced_phase7">Une approche beaucoup mieux pour le jeu est de capturer les coins du tableau.</string>
+    <string name="advanced_phase8">Vous vous demandez probablement, qu\'est-ce qui est si génial dans les coins? Pour commencer, pièces placées dans les coins ne sera jamais renversé.</string>
+    <string name="advanced_phase9">Voici un exemple extrême où votre adversaire a joué \'pour le but\', mais va encore perdre. C\'est parce qu\'il est hors des mouvements juridiques et les coins sont les vôtres pour capturer.</string>
+    <string name="advanced_phase10">Excellent! Vous êtes déjà un meilleur joueur! Maintenant, observons plus de domaines du tableau.</string>
+    <string name="advanced_phase11">La zone la plus dangereuse du tableau est autour des coins. C\'est parce que les capturer peuvent donner à votre adversaire une opportunité de capturer les coins.</string>
+    <string name="advanced_phase12">Voici un exemple simple et hypothétique qui vous montrera ce que je veux dire. Si vous appuyez sur la zone orange, votre adversaire va capturer le coin.</string>
+    <string name="advanced_phase13">Génial! Passons à la prochaine zone – les restes des marges. De manière similaire aux coins, vous pouvez constater qu\'ils sont très bons endroits pour capturer.</string>
+    <string name="advanced_phase14">La prochaine zone est adjacente aux marges. Vous voudrez peut-être éviter cette zone, car il peut donner à votre adversaire la possibilité de prendre le contrôle sur les marges.</string>
+    <string name="advanced_phase15">Alors, Nous avons vu quatre domaines – deux domaines qui sont excellents à jouer et deux dangereux. Cela nous laisse avec la dernière zone – le milieu du tableau, qui est le plus souvent neutre.</string>
+    <string name="advanced_phase16">Excellent! Passons à la stratégie finale, que vous pouvez utiliser après la capture des coins et des marges.</string>
+    <string name="advanced_phase17">Vous pouvez essayer de passer des parties extérieures de la planche à l\'intérieur, sans espace entre vos disques.</string>
+    <string name="advanced_phase18">De cette façon, vous pouvez fabriquer plus les pièces cela ne peut pas être inversé. De plus, cela réduira considérablement le nombre de mouvements juridiques que votre adversaire aura.</string>
+    <string name="advanced_phase19">C\'est tout. Vous êtes maintenant prêt à dominer la tableau! Jeux heureux!</string>
+
+
+    <!-- Options -->
+    <string name="account">Compte</string>
+    <string name="log_in">Connexion</string>
+    <string name="log_out">Déconnexion</string>
+    <string name="sound">Du son</string>
+    <string name="vibrator">Vibreur</string>
+    <string name="language">Langue</string>
+    <string name="choose">Choisir</string>
+
+    <!-- The order have to match Constants.LOCALES_ARRAY -->
+    <string-array name="languages_array">
+        <item>Anglais</item>
+        <item>Hébreu</item>
+        <item>Russe</item>
+        <item>Français</item>
+    </string-array>
+
+    <!-- Login -->
+    <string name="log_out_succeeded">Vous êtes maintenant déconnecté.</string>
+    <string name="sign_in_succeeded">Connexion réussie!</string>
+    <string name="sign_in_cancelled">La connexion a été annulée.</string>
+    <string name="no_internet_connection">Il ñ\'y a pas de connexion Internet.</string>
+    <string name="unknown_error">Une erreur inconnue š\'est produite.</string>
+    <string name="unknown_sign_in_response">Application reçue Inconnue Connexion Réponse.</string>
+
+
+    <!-- Game Pieces -->
+    <string name="choose_game_piece">Choisissez votre style</string>
+    <string name="game_piece_note">Notez que le joueur avec les pièces NOIRES COMMENCE le jeu.</string>
+
+    <!-- Difficulty -->
+    <string name="choose_difficulty">Choisissez une difficulté</string>
+    <string name="beginner">Débutant</string>
+    <string name="easy">Facile</string>
+    <string name="medium">Médium</string>
+    <string name="hard">Difficile</string>
+    <string name="expert">Expert</string>
+
+    <!-- Names -->
+    <string name="temp_player_name">Moi</string>
+    <string name="temp_opponent_name">Adversaire</string>
+    <string name="bot_name_beginner">Débutant I.A.</string>
+    <string name="bot_name_easy">Facile I.A.</string>
+    <string name="bot_name_medium">Médium I.A.</string>
+    <string name="bot_name_hard">Difficile I.A.</string>
+    <string name="bot_name_expert">Expert I.A.</string>
+
+    <!-- Game -->
+    <string name="victory_text">VICTOIRE</string>
+    <string name="defeat_text">DÉFAITE</string>
+    <string name="draw_text">MATCH NUL</string>
+    <string name="play_again">Rejouer</string>
+    <string name="back_to_menu">Retour au Menu</string>
+
+    <!-- Game Room-->
+    <string name="game_room_title">Entrez dans une salle de jeux</string>
+    <string name="room_name">Nom de la salle</string>
+    <string name="password">Mot de passe</string>
+    <string name="done">Fini</string>
+    <string name="room_name_too_short">Le nom de la salle doit contenir au moins 3 lettres.</string>
+    <string name="password_too_short">Le mot de passe doit contenir au moins 3 lettres.</string>
+    <string name="wrong_password">Le mot de passe est incorrect.</string>
+    <string name="full_room">Cette salle est déjà occupée.</string>
+    <string name="opponent_connected">Votre adversaire est maintenant connecté.</string>
+    <string name="opponent_left">Votre adversaire est parti.</string>
+    <string name="no_opponent_yet">Vous n\'avez pas encore d\'adversaire.</string>
+
+
+    <!-- Emotes -->
+
+    <string-array name="emotes_array">
+        <item>Bonjour!</item>
+        <item>Bien joué, mon ami</item>
+        <item>Tu es très bon</item>
+        <item>Ohohoh!</item>
+        <item>Merci</item>
+        <item>Oops...</item>
+        <item>Juste une seconde...</item>
+        <item>Je dois partir, au revoir</item>
+    </string-array>
+
+    <string-array name="bot_emotes_array">
+        <item>Beep boop bu-bup</item>
+        <item>Boo-bu, bi-bup woop</item>
+    </string-array>
+
+
+    <!-- Verifications -->
+    <string name="verification_return">Êtes-vous sûr de vouloir revenir au menu principal?</string>
+    <string name="verification_restart">Êtes-vous sûr de vouloir/nredémarrer le jeu?</string>
+    <string name="verification_concede">Êtes-vous sûr de vouloir concéder?</string>
+    <string name="verification_logout">Êtes-vous sûr de vouloir vous déconnecter?</string>
+    <string name="cancel">Annuler</string>
+    <string name="accept">Oui</string>
+
+
+</resources>

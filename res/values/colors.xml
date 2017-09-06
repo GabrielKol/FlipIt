@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Green colors. -->
+    <color name="colorGreenLightest">#3fe969</color>
+    <color name="colorGreenLight">#37cc5c</color>
+    <color name="colorGreen">#2aa248</color>
+    <color name="colorGreenDark">#198634</color>
+    <color name="colorGreenDarkest">#146b29</color>
+
+    <color name="colorGreenLightAlpha">#782fb450</color>
+    <color name="colorGreenAlpha">#b42fb450</color>
+    <color name="colorGreenDarkAlpha">#b4198634</color>
+
+
+    <!-- Black/Gray/White colors. -->
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrayDark">#535353</color>
+    <color name="colorGray">#757575</color>
+    <color name="colorWhiteSmoke">#F5F5F5</color>
+    <color name="colorGhostWhite">#F8F8FF</color>
+    <color name="colorLight">#fafafa</color>
+    <color name="colorWhite">#f5f5f5</color>
+
+    <color name="colorBlackDarkAlpha">#dc000000</color>
+    <color name="colorBlackAlpha">#c8000000</color>
+    <color name="colorBlackLightAlpha">#64000000</color>
+    <color name="colorGrayDarkAlpha">#b4535353</color>
+    <color name="colorGrayAlpha">#b4757575</color>
+    <color name="colorBlackGrayAlpha">#dc252525</color>
+
+
+    <!-- Red colors. -->
+    <color name="colorRedLight">#ff4c55</color>
+    <color name="colorRed">#c1232b</color>
+    <color name="colorRedDark">#b31d1d</color>
+
+    <color name="colorRedAlpha">#b4cf3139</color>
+
+
+    <!-- Blue colors. -->
+    <color name="colorBlueLight">#4d63da</color>
+    <color name="colorBlue">#2f41a7</color>
+    <color name="colorBlueDark">#293993</color>
+
+    <!-- Teal colors. -->
+    <color name="colorTeal">#2f8fa7</color>
+    <color name="colorTealLight">#75e3ff</color>
+
+
+    <!-- Yellow colors. -->
+    <color name="colorYellowLight">#fffb6b</color>
+    <color name="colorYellow">#eae544</color>
+    <color name="colorYellowDark">#cac630</color>
+
+    <!-- Orange colors. -->
+
+    <color name="colorOrange">#ea6d44</color>
+    <color name="colorOrangeLight">#ff9858</color>
+
+</resources>

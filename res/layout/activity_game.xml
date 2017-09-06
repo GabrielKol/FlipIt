@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main layout -->
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/brown_wood_background">
+
+
+        <!-- Opponent's layout (Top layout) -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="45"
+            android:id="@+id/top_layout"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <!-- Area for emote -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_weight="2"
+                android:id="@+id/emote_opponent"
+                android:gravity="top"
+                android:layout_gravity="center"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:alpha="0"
+                android:paddingTop="2dp"
+                android:paddingLeft="@dimen/player_emote_padding_right"
+                android:paddingRight="@dimen/player_emote_padding_left"
+                android:background="@drawable/emote_bubble_opponent"/>
+
+
+            <!-- Profile area-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="66dp"
+                android:layout_weight="3"
+                android:id="@+id/profile_area_opponent"
+                android:background="@drawable/user_area_gray"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp">
+
+                    <!-- Username -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:id="@+id/username_opponent"
+                        android:textSize="14dp"
+                        android:gravity="end"
+                        android:textColor="@color/colorBlack"
+                        android:paddingRight="4dp"
+                        android:paddingLeft="4dp"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="@color/colorGrayDarkAlpha"/>
+
+                    <!-- Shake button -->
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/shake_button"
+                        android:textAlignment="center"
+                        android:text="! ! !"
+                        android:textSize="14dp"
+                        android:textStyle="bold|italic"
+                        android:layout_gravity="end"
+                        android:gravity="top"
+                        android:paddingRight="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/button_red"
+                        android:textColor="@color/colorBlack"/>
+
+                </LinearLayout>
+
+
+                <!-- Profile pic-->
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/profile_pic_opponent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:src="@drawable/ai_icon"/>
+
+
+            </LinearLayout>
+
+
+            <!-- Counter for game pieces -->
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/piece_counter_opponent"
+                android:background="@drawable/piece_counter_white"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="2"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <!-- Layout for the game's board (The mid layout) [takes 2/3 of the screen's space]-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="200"
+            android:id="@+id/mid_layout">
+
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:isScrollContainer="false"
+                android:id = "@+id/grid_view"
+                android:background="@color/colorGreenDark"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:horizontalSpacing="1dp"
+                android:verticalSpacing="1dp"
+                android:stretchMode="columnWidth"
+                android:layout_margin="20dp"/>
+
+
+            <!-- The wooden frame of the game's board-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/board_frame"
+                android:src="@drawable/wood_frame"/>
+
+        </FrameLayout>
+
+
+
+
+
+
+        <!-- Player's layout (Bottom layout) -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="55"
+            android:id="@+id/bottom_layout"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Counter for game pieces -->
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/piece_counter_player"
+                android:background="@drawable/piece_counter_black"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="2"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"/>
+
+            <!-- Profile area-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="66dp"
+                android:layout_weight="3"
+                android:id="@+id/profile_area_player"
+                android:background="@drawable/user_area_gray"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="horizontal">
+
+                <!-- Profile pic-->
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    android:id="@+id/profile_pic_player"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:src="@drawable/noob_icon_green"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp">
+
+                    <!-- Username -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:id="@+id/username_player"
+                        android:text="@string/temp_player_name"
+                        android:textSize="14dp"
+                        android:gravity="start"
+                        android:textColor="@color/colorBlack"
+                        android:paddingRight="4dp"
+                        android:paddingLeft="4dp"
+                        android:paddingTop="2dp"
+                        android:paddingBottom="2dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:background="@color/colorGrayDarkAlpha"/>
+
+                    <!-- Emote button -->
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/emote_button"
+                        android:textAlignment="center"
+                        android:text="• • •"
+                        android:textSize="14dp"
+                        android:layout_gravity="start"
+                        android:gravity="top"
+                        android:paddingRight="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:layout_marginBottom="2dp"
+                        android:background="@drawable/button_yellow"
+                        android:textColor="@color/colorBlack"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Layout for emote, return button, and restart button -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <!-- Area for emote -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:id="@+id/emote_player"
+                    android:gravity="top"
+                    android:layout_gravity="center"
+                    android:textSize="14dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorBlack"
+                    android:alpha="0"
+                    android:paddingTop="2dp"
+                    android:paddingLeft="@dimen/player_emote_padding_left"
+                    android:paddingRight="@dimen/player_emote_padding_right"
+                    android:layout_marginLeft="@dimen/player_emote_margin_left"
+                    android:layout_marginRight="@dimen/player_emote_margin_right"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/emote_bubble_player"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="right">
+
+                    <!-- Back button -->
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/return_button"
+                        android:paddingRight="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:layout_marginRight="16dp"
+                        android:background="@drawable/return_icon"/>
+
+                    <!-- Replay button -->
+                    <Button
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/concede_button"
+                        android:paddingRight="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingTop="0dp"
+                        android:paddingBottom="0dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/restart_icon"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <!-- dummy -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dummy"
+        android:visibility="gone"
+        android:background="@drawable/piece_none"/>
+
+
+    <!-- Emote picker list -->
+    <ListView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="false"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:id = "@+id/emote_picker_list"/>
+
+
+
+    <!-- Shadow screen: -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shadow_screen"
+        android:visibility="gone"
+        android:background="@color/colorBlackAlpha"/>
+
+
+    <!-- Conclusion text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/conclusion_text"
+        android:visibility="gone"
+        android:textSize="60dp"
+        android:textStyle="bold|italic"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"/>
+
+
+    <!-- Return to menu button -->
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/return_button2"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_green_shadow"
+        android:visibility="gone"
+        android:text="@string/back_to_menu"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/conclusion_text"
+        android:textAllCaps="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <!-- Play again button -->
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/play_again_button"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_green_alpha"
+        android:visibility="gone"
+        android:text="@string/play_again"
+        android:textSize="24dp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/return_button2"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

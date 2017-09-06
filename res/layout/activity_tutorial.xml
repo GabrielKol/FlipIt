@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brown_wood_background">
+
+
+    <!-- A.I. layout (Top layout) -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:id="@+id/top_layout"
+        android:paddingTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- Text bubble -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="85"
+            android:id="@+id/text_bubble"
+            android:background="@drawable/tutorial_text_bubble"
+            android:gravity="top"
+            android:layout_gravity="center"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:alpha="0"
+            android:paddingTop="8dp"
+            android:paddingLeft="@dimen/tutorial_bubble_padding_left"
+            android:paddingRight="@dimen/tutorial_bubble_padding_right"
+            android:layout_marginLeft="@dimen/tutorial_bubble_margin_left"
+            android:layout_marginRight="@dimen/tutorial_bubble_margin_right"/>
+
+        <!-- A.I. picture -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:id="@+id/bot_pic"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ai_icon"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <!-- Layout for the game's board (The mid layout) [takes 2/3 of the screen's space]-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="200"
+        android:id="@+id/mid_layout">
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:isScrollContainer="false"
+            android:id = "@+id/grid_view"
+            android:background="@color/colorGreenDark"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+            android:stretchMode="columnWidth"
+            android:layout_margin="20dp"/>
+
+        <!-- The wooden frame of the game's board-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/board_frame"
+            android:src="@drawable/wood_frame"/>
+
+    </FrameLayout>
+
+
+
+
+
+    <!-- Player's layout (Bottom layout) -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:padding="8dp"
+        android:id="@+id/bottom_layout">
+
+        <!-- Previous button -->
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/previous_button"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/button_green_shadow"
+            android:text="@string/previous"
+            android:textSize="14dp"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="false"
+            android:padding="0dp"
+            android:visibility="gone"/>
+
+        <!-- Next button -->
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/next_button"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:background="@drawable/button_green_alpha"
+            android:text="@string/next"
+            android:textSize="14dp"
+            android:textAllCaps="false"
+            android:layout_alignParentRight="true"
+            android:padding="0dp"/>
+
+        <!-- Return to menu button -->
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/back_to_menu_button"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/button_green_shadow"
+            android:text="@string/back_to_menu"
+            android:textSize="14dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textAllCaps="false"
+            android:padding="0dp"/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
